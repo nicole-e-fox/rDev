@@ -1,3 +1,2 @@
 # rDev
-## r Development 
-A Programming Practice Sandbox
+r Development: An R Programming Practice Sandbox
