@@ -27,7 +27,7 @@ The following requested transformations have been performed on this data in the 
 - Call in activity names and rename column names
 - Include descriptive activity names using merge 
 
-*4) Appropriately labels the data set with descriptive variable names*
+**4) Appropriately labels the data set with descriptive variable names**
 
 - Dynamically assign feature column names using gsub (grep subsitution, i.e. find and replace) 
 
