@@ -3,14 +3,19 @@
 The source data file and associated documentation is archived The UCI Machine Learning Repository
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones# 
 
-Please refer to the source documentation and associated README.txt file accompanying the data for more information to ensure accuracy.   
+Please refer to the source documentation and associated README.txt file accompanying the archived data for more information on the measurements included and the units in which they were recorded to ensure accuracy.  
 
 The means and standard deviations for each measurement were programmatically subset for mean(): Mean value and std(): Standard deviation.
 
-**Notes on variable names:** 
+**Notes on variable naming conventions:** 
 
- - 'f' denotes frequency domain signals
- - 'FFT' indicatesFast Fourier Transform 
+Variable names including
+ - 'mean' or 'std' to indicate metric, either mean() or std()
+ - 'FFT' denote that the measurement had a Fast Fourier Transform (FFT) applied
+ - 'Body' or 'Gravity' indicate the type of signal
+ - 'Gyro' refers to the type of measurement
+ - 'Jerk' body linear acceleration and angular velocity were derived in time
+ - 'X', 'Y', and 'Z' refer to the X, Y, or Z axis 
 
 **Output Details**
 
