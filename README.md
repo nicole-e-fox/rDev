@@ -9,7 +9,7 @@ The following requested transformations have been performed on this data in the 
 - Load packages
 - Set working directory
 - Create working directory ref
-- Create list to be populated with dataframes containing datain specficied files
+- Create list to be populated with data.frames containing data in specified files
 - Read in features file using read.table
 - Read in activity labels using read.table
 - Read in test data read.table and merge using cbind 
